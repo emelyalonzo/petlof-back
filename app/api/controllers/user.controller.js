@@ -229,10 +229,6 @@ const addMatch = async (req, res, next) => {
 
     console.log("matches of user who made the match BEFORE", user.matches);
 
-    // let matchesUser = user.matches;
-    // matchesUser.push(matchedUser);
-    // console.log(matchedUser);
-    // user.matches = matchesUser;
     console.log("matches of user" , user.matches)
 
     console.log("matches of user who made the match AFTER", user.matches);
